@@ -7,7 +7,7 @@ import LowerBirds from './components/LowerBirds';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-white via-[#d2e4ff] to-[#E0F0FF] relative overflow-hidden font-sans selection:bg-brand-blue selection:text-white">
+    <div className="min-h-screen bg-gradient-to-l from-white to-[#d2e4ff] via-[#E0F0FF] relative overflow-hidden font-sans selection:bg-brand-blue selection:text-white">
       <Navbar />
       <Hero />
       <UpperBirds/>
