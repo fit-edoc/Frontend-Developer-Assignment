@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-brand-dark bg-blue-50;
+  }
+}
+
+.nav{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
