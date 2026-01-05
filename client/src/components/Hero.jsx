@@ -43,7 +43,7 @@ const Hero = () => {
                 {/* "Scroll to learn more" text cluster */}
                 <div className="flex flex-col items-center opacity-70 hover:opacity-100 transition-opacity cursor-pointer">
                     <span className="text-brand-dark/60 text-[10px] md:text-xs font-semibold tracking-widest uppercase mb-2">Scroll to learn more</span>
-                    <svg className="w-5 h-5 text-brand-blue animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
+                    <img src="/arrow.png" className='animate-bounce mt-2' alt="" />
                 </div>
             </div>
 
